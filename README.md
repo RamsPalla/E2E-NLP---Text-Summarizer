@@ -12,6 +12,10 @@
 7. update the main.py
 8. update the app.py
 
-## Steps to create virtual environment and activate it in case we are running project from folder.
+## Steps to create virtual environment, activate it and run the project in case we are running project from folder.
 1. conda create -n <projectname> pythin=3.8 -y
 2. conda activate <projectname>
+3. pip install -r requirements.txt
+4. pip install --upgrade accelerate (this project specific)
+5. pip uninstall -y transformers accelerate (this project specific)
+6. pip install transformers accelerate (this project specific)
