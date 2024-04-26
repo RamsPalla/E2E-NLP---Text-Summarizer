@@ -12,7 +12,7 @@
 7. update the main.py
 8. update the app.py
 
-## Steps to create virtual environment, activate it and run the project in case we are running project from folder.
+## Steps to create virtual environment, activate it and run the project in case we are running project from folder/command prompt terminal.
 1. conda create -n <projectname> pythin=3.8 -y
 2. conda activate <projectname>
 3. pip install -r requirements.txt
