@@ -2,6 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 import sys
 import os
+import nltk
 from fastapi.templating import Jinja2Templates
 from starlette.responses import RedirectResponse
 from fastapi.responses import Response
